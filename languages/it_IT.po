@@ -1,0 +1,965 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Moka v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-12-30 18:18+0100\n"
+"Last-Translator: Nicola Losito “koolinus” <nicola@koolinus.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Language: it_IT\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ moka
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ops! Questa pagina non può essere trovata."
+
+# @ moka
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try another search term?"
+msgstr "Qui pare che non ci sia nulla. Vuoi provare con un altro termine di ricerca?"
+
+# @ moka
+#: archive.php:19
+#, php-format
+msgid "All posts filed under &ldquo;%s&rdquo;"
+msgstr "Tutti gli articoli archiviati in &ldquo;%s&rdquo;"
+
+# @ moka
+#: archive.php:22
+#, php-format
+msgid "All posts tagged &ldquo;%s&rdquo;"
+msgstr "Tutti gli articoli con tag &ldquo;%s&rdquo;"
+
+# @ moka
+#: archive.php:29
+#, php-format
+msgid "All posts by &ldquo;%s&rdquo;"
+msgstr "Tutti gli articoli di &ldquo;%s&rdquo;"
+
+# @ moka
+#: archive.php:37
+#, php-format
+msgid "Daily archives of &ldquo;%s&rdquo;"
+msgstr "Archivi giornalieri di &ldquo;%s&rdquo;"
+
+# @ moka
+#: archive.php:40
+#, php-format
+msgid "Monthly archives of &ldquo;%s&rdquo;"
+msgstr "Archivi mensili di &ldquo;%s&rdquo;"
+
+# @ moka
+#: archive.php:43
+#, php-format
+msgid "Yearly archives of &ldquo;%s&rdquo;"
+msgstr "Archivi annuali di &ldquo;%s&rdquo;"
+
+# @ moka
+#: archive.php:46
+msgid "Archives"
+msgstr "Archivi"
+
+# @ moka
+#: archive.php:80 search.php:34
+msgid "Nothing Found"
+msgstr "Nessun Risultato"
+
+# @ moka
+#: archive.php:84
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr "Sembra che non riusciamo a trovare quello che cercavi."
+
+# @ moka
+#: comments.php:12
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Questo articolo è protetto da password. Inserisci la tua per visualizzarlo."
+
+# @ moka
+#: comments.php:28
+#, php-format
+msgid "1 Comment so far"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 Commento sino ad ora"
+msgstr[1] "%1$s Commenti"
+
+# @ moka
+#: comments.php:47
+msgid "<span>&larr; Older</span>"
+msgstr "<span>&larr; Precedente</span>"
+
+# @ moka
+#: comments.php:48
+msgid "<span>Newer &rarr;</span>"
+msgstr "<span>Successivo &rarr;</span>"
+
+# @ moka
+#: comments.php:58
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi."
+
+# @ moka
+#: comments.php:63
+msgid "<h3 id=\"reply-title\">Leave a Reply</h3>"
+msgstr "<h3 id=\"reply-title\">Lascia una Risposta</h3>"
+
+# @ moka
+#: comments.php:66
+msgctxt "noun"
+msgid "Write your message here... <span class=\"required\">*</span>"
+msgstr "Scrivi il tuo messaggio qui... <span class=\"required\">*</span>"
+
+# @ moka
+#: comments.php:67
+msgid "Post Comment"
+msgstr "Pubblica Commento"
+
+# @ moka
+#: content-archive.php:19
+msgid "Filter by Tags"
+msgstr "Filtro per Tag"
+
+# @ moka
+#: content-archive.php:24
+msgid "The Latest 30 Posts"
+msgstr "Gli ultimi 30 Articoli"
+
+# @ moka
+#: content-archive.php:29
+msgid "The Monthly Archive"
+msgstr "L’Archivio Mensile"
+
+# @ moka
+#: content-featured.php:16 content-gallery.php:24 content-image.php:24
+#: content-link.php:24 content-quote.php:24 content-recent.php:14
+#: content-recent.php:20 content-slider.php:27 content-sticky.php:14
+#: content-sticky.php:30 content.php:14 content.php:30 inc/widgets.php:446
+#: inc/widgets.php:451
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink a %s"
+
+# @ moka
+#: content-gallery.php:19 content-image.php:19 content-link.php:19
+#: content-quote.php:19 content-recent.php:38 content-single.php:25
+#: content-slider.php:38 content-sticky.php:25 content.php:25
+#: inc/widgets.php:462
+msgid "comment 0"
+msgstr "0 commenti"
+
+# @ moka
+#: content-gallery.php:19 content-image.php:19 content-link.php:19
+#: content-quote.php:19 content-recent.php:38 content-single.php:25
+#: content-slider.php:38 content-sticky.php:25 content.php:25
+#: inc/widgets.php:462
+msgid "comment 1"
+msgstr "1 commento"
+
+# @ moka
+#: content-gallery.php:19 content-image.php:19 content-link.php:19
+#: content-quote.php:19 content-recent.php:38 content-single.php:25
+#: content-slider.php:38 content-sticky.php:25 content.php:25
+#: inc/widgets.php:462
+msgid "comments %"
+msgstr "% commenti"
+
+# @ moka
+#: content-gallery.php:22 content-image.php:22 content-link.php:22
+#: content-quote.php:22 content-recent.php:41 content-single.php:28
+#: content-sticky.php:28 content.php:28 functions.php:305 functions.php:320
+#: image.php:25 inc/widgets.php:465
+msgid "Edit"
+msgstr "Modifica"
+
+# @ moka
+#: content-gallery.php:43 content-image.php:43 content-single.php:35
+#: content.php:49
+msgid "Pages:"
+msgstr "Pagine:"
+
+# @ moka
+#: content-gallery.php:53 content-image.php:53 content-link.php:46
+#: content-quote.php:46 content-single.php:44 content-sticky.php:45
+#: content.php:59
+msgid "Filed under: "
+msgstr "Pubblicato in: "
+
+# @ moka
+#: content-single.php:47
+msgid "Tagged: "
+msgstr "Tag:"
+
+# @ moka
+#: content-single.php:52
+msgid "About the Author"
+msgstr "sull'Autore"
+
+# @ moka
+#: content-single.php:55
+#, php-format
+msgid "Posted by %s"
+msgstr "Pubblicato da: %s"
+
+# @ moka
+#: content-single.php:66
+msgid "<span>Next Post  &raquo;</span>"
+msgstr "<span>Articolo Successivo  &raquo;</span>"
+
+# @ moka
+#: content-single.php:67
+msgid "<span>&laquo; Previous Post</span>"
+msgstr "<span>&laquo; Articolo Precedente</span>"
+
+# @ moka
+#: content-sticky.php:36 content.php:46
+msgid "Read More"
+msgstr "Continua a leggere"
+
+# @ moka
+#: footer.php:31
+msgid "Proudly powered by"
+msgstr "Orgogliosamente realizzato con"
+
+# @ moka
+#: footer.php:31
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org"
+
+# @ moka
+#: footer.php:31
+msgid "WordPress."
+msgstr "WordPress."
+
+# @ moka
+#: footer.php:32
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr "Tema: %1$s di %2$s"
+
+# @ moka
+#: functions.php:41
+msgid "Primary Navigation"
+msgstr "Navigazione Principale"
+
+# @ moka
+#: functions.php:98
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "su"
+
+# @ moka
+#: functions.php:158
+#, php-format
+msgid "Page %s"
+msgstr "Pagina %s"
+
+# @ moka
+#: functions.php:205
+msgid "Recent Post Thumbs"
+msgstr "Anteprima Articoli Recenti"
+
+# @ moka
+#: functions.php:251
+msgid "Read more"
+msgstr "Continua a leggere"
+
+# @ moka
+#: functions.php:285
+#, php-format
+msgid " %s "
+msgstr " %s "
+
+# @ moka
+#: functions.php:291
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento è in attesa di moderazione."
+
+# @ moka
+#. translators: 1: date
+#: functions.php:298
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+# @ moka
+#: functions.php:302
+msgid "Reply<span> to this comment</span>"
+msgstr "Rispondi <span> a questo commento</span>"
+
+# @ moka
+#: functions.php:319
+msgid "<span>Pingback:</span>"
+msgstr "<span>Pingback:</span>"
+
+# @ moka
+#: functions.php:335
+msgid "Front Page Widget Area"
+msgstr "Area Widget della Pagina Iniziale"
+
+# @ moka
+#: functions.php:337
+msgid "Widgets will appear in a single column layout on the custom front page above the footer."
+msgstr "I Widget appariranno con layout a singola colonna sul frontespizio personalizzato sopra il piè di pagina."
+
+# @ moka
+#: functions.php:345
+msgid "Footer Widget Area 1"
+msgstr "Widget piè di pagina Area 1"
+
+# @ moka
+#: functions.php:347
+msgid "Widgets will appear in the first footer column."
+msgstr "Questi Widget appariranno nella prima colonna del piè di pagina."
+
+# @ moka
+#: functions.php:355
+msgid "Footer Widget Area 2"
+msgstr "Widget piè di pagina Area 2"
+
+# @ moka
+#: functions.php:357
+msgid "Widgets will appear in the second footer column."
+msgstr "Questi Widget appariranno nella seconda colonna del piè di pagina."
+
+# @ moka
+#: functions.php:365
+msgid "Footer Widget Area 3"
+msgstr "Widget piè di pagina Area 3"
+
+# @ moka
+#: functions.php:367
+msgid "Widgets will appear in the third footer column."
+msgstr "Questi Widget appariranno nella terza colonna del piè di pagina."
+
+# @ moka
+#: functions.php:375
+msgid "Social Links Footer Widget Area"
+msgstr "Area Widget per i link ai Social"
+
+# @ moka
+#: functions.php:377
+msgid "Widget area to include social links widget above the footer credit text. Please note that this widget area is only intended for the Social Links widget."
+msgstr "Area Widget per includere i link ai Social sopra il testo dei credits a piè di pagina. Si prega di notare che questa area widget può ospitare solo questo tipo di Widget."
+
+# @ moka
+#: functions.php:399
+msgid "<span>&laquo; Older Posts</span>"
+msgstr "<span>&laquo; Articoli Precedenti</span>"
+
+# @ moka
+#: functions.php:400
+msgid "<span>Newer Posts &raquo;</span>"
+msgstr "<span>Articoli Successivi &raquo;</span>"
+
+# @ moka
+#: header.php:30
+msgid "Close Search"
+msgstr "Chiudi Ricerca"
+
+# @ moka
+#: header.php:31
+msgid "Type your search terms above and press return to see the search results."
+msgstr "Inserisci i tuoi termini di ricerca qui sopra e premi invio per visualizzare i risultati."
+
+# @ moka
+#: header.php:47
+msgid "Menu"
+msgstr "Menu"
+
+# @ moka
+#: header.php:50
+msgid "Search"
+msgstr "Cerca"
+
+# @ moka
+#: image.php:71
+msgid "Posted in: "
+msgstr "Pubblicato in :"
+
+# @ moka
+#: image.php:81
+msgid "<span>&larr; Previous</span>"
+msgstr "<span>&larr; Precedente</span>"
+
+# @ moka
+#: image.php:82
+msgid "<span>Next &rarr;</span>"
+msgstr "<span>Successivo &rarr;</span>"
+
+# @ moka
+#: inc/customizer.php:16
+msgid "Customize your title background and text color, your link and link hover color, background color and big widget font colors."
+msgstr "Personalizza i colori del titolo del sito e del suo sfondo , dei link, dello sfondo del sito e del carattere del testo enfatizzato."
+
+# @ moka
+#: inc/customizer.php:22
+msgid "Front Page Settings"
+msgstr "Impostazioni Pagine Iniziale"
+
+# @ moka
+#: inc/customizer.php:57
+msgid "Number of Recent Posts (3,6,9 or 12)"
+msgstr "Numero di Articoli Recenti (3,6,9 o 12)"
+
+# @ moka
+#: inc/customizer.php:64
+msgid "Site Title Color"
+msgstr "Colore del titolo del Sito"
+
+# @ moka
+#: inc/customizer.php:70
+msgid "Site Title Background Color"
+msgstr "Colore di sfondo del titolo del Sito"
+
+# @ moka
+#: inc/customizer.php:76
+msgid "Link Color"
+msgstr "Colore di Link"
+
+# @ moka
+#: inc/customizer.php:82
+msgid "Link Hover Color"
+msgstr "Colore dell’Hover del Link"
+
+# @ moka
+#: inc/customizer.php:88
+msgid "Big Font Color (in Widgets)"
+msgstr "Colore del testo Enfatizzato (nei Widget)"
+
+# @ moka
+#: inc/jetpack.php:30
+msgid "The featured content slider displays at the top of the Front Page Slider template."
+msgstr "Lo slider dei contenuti in evidenza appare in cima nel template dello Slider della Pagina Frontale."
+
+# @ moka
+#: inc/theme-options.php:61 inc/theme-options.php:62
+msgid "Theme Options"
+msgstr "Opzioni del Tema"
+
+# @ moka
+#: inc/theme-options.php:107
+#, php-format
+msgid "%s Theme Options"
+msgstr "%s Opzioni del Tema"
+
+# @ moka
+#: inc/theme-options.php:118
+msgid "Custom Logo"
+msgstr "Logo personalizzato"
+
+# @ moka
+#: inc/theme-options.php:120 inc/theme-options.php:122
+msgid "Logo Image"
+msgstr "Immagine del Logo"
+
+# @ moka
+#: inc/theme-options.php:124
+msgid "Upload your own logo image with a max width of 200px and a flexible height (e.g. 200x80px) using the "
+msgstr "Carica il tuo logo personale con una larghezza massima di 200px ed un’altezza variabile (per esempio 200x80 pc) utilizzando"
+
+# @ moka
+#: inc/theme-options.php:124
+msgid "WordPress Media Uploader"
+msgstr "Uploader Media di WordPress"
+
+# @ moka
+#: inc/theme-options.php:124
+msgid ". Then copy your logo image file URL and insert the URL here. If you want to include a Retina-optimized logo image, just prepare the image 2x the actual size (e.g. 400x160px), but still type in the 200 and 80 as width and height value below."
+msgstr ". Quindi copia la ULR dell’immagine del logo e copiala qui. Se vuoi includere una versione ottimizzata per i display Retina, prepara un’immagine 2x le dimensioni reali (ad esempio 400x160 px), ma scrivi le dimensioni standard (200x80) per i valori di altezza e larghezza qui sotto."
+
+# @ moka
+#: inc/theme-options.php:129 inc/theme-options.php:131
+msgid "Logo Image Width"
+msgstr "Larghezza d’immagine del Logo"
+
+# @ moka
+#: inc/theme-options.php:133
+msgid "Include your custom logo width, e.g. 200 (value only, no unit). The maximum logo image width is 200px."
+msgstr ""
+
+# @ moka
+#: inc/theme-options.php:138 inc/theme-options.php:140
+msgid "Logo Image Height"
+msgstr "Altezza dell’immagine del Logo"
+
+# @ moka
+#: inc/theme-options.php:142
+msgid "Include your custom logo height, e.g. 80 (value only, no unit)"
+msgstr ""
+
+# @ moka
+#: inc/theme-options.php:149
+msgid "Fixed Sidebar, Post Excerpts & Footer Text"
+msgstr "Barra laterale fissa, Estratti degli Articoli e Testo a piè di pagina"
+
+# @ moka
+#: inc/theme-options.php:151 inc/theme-options.php:153
+msgid "Sidebar Fixed Position"
+msgstr "Posizione della Barra laterale fissa"
+
+# @ moka
+#: inc/theme-options.php:155
+msgid "Check this box to use the fixed positioned sidebar feature on desktop screens."
+msgstr "Marca questo box per utilizzare la funzionalità di barra laterale fissa quando visualizzato sui monitor desktop."
+
+# @ moka
+#: inc/theme-options.php:160 inc/theme-options.php:162
+msgid "Post Excerpts"
+msgstr "Estratti dell’Articolo"
+
+# @ moka
+#: inc/theme-options.php:164
+msgid "Check this box to show automatic post excerpts on your blog page. With this option you will not need to add the more tag in posts."
+msgstr "Marca questo box per mostrare i riassunti automatici degli articoli sulla tua pagina Blog. Con questa opzione attiva non c’è bisogno di utilizzare il tag < more > negli articoli."
+
+# @ moka
+#: inc/theme-options.php:169 inc/theme-options.php:171
+msgid "Footer Credit Text"
+msgstr "Testo dei crediti a piè di pagina"
+
+# @ moka
+#: inc/theme-options.php:173
+msgid "Customize the footer credit text. Standard HTML is allowed."
+msgstr "Personalizza il testo dei crediti a piè di pagina. È consentito l’uso di codice HTML standard."
+
+# @ moka
+#: inc/theme-options.php:182
+msgid "Share Buttons"
+msgstr "Pulsanti Condivisione"
+
+# @ moka
+#: inc/theme-options.php:184 inc/theme-options.php:186
+msgid "Share option for posts"
+msgstr "Opzione di condivisione per gli articoli"
+
+# @ moka
+#: inc/theme-options.php:188
+msgid "Check this box to include share buttons (for Twitter, Facebook, Google+) on your blogs front page and on single post pages."
+msgstr "Marca questo box per includere i pulsanti di condivisione (per Twitter, Facebook, Google+) sulla tua pagina iniziale e sulle pagine dei singoli articoli."
+
+# @ moka
+#: inc/theme-options.php:193 inc/theme-options.php:195
+msgid "Share option on single posts only"
+msgstr "Opzione di condivisione solo per i singoli articoli"
+
+# @ moka
+#: inc/theme-options.php:197
+msgid "Check this box to include the share post buttons <strong>only</strong> on single posts (below the post content)."
+msgstr "Marca questo box per includere i pulsanti di condivisione <strong>solo</strong> per il singolo articolo (sotto il contenuto)."
+
+# @ moka
+#: inc/theme-options.php:204
+msgid "Custom CSS"
+msgstr "CSS personalizzato"
+
+# @ moka
+#: inc/theme-options.php:206 inc/theme-options.php:208
+msgid "Include Custom CSS"
+msgstr "Includi CSS personalizzato"
+
+# @ moka
+#: inc/theme-options.php:210
+msgid "Include custom CSS styles, use !important to overwrite existing styles."
+msgstr "Includi gli stili del CSS personalizzato, usa !important per sovrascrivere gli stili esistenti."
+
+# @ moka
+#: inc/widgets.php:18
+msgid "Show icons with links to your social profiles"
+msgstr "Mostra le icone con i link ai tuoi profili sociali"
+
+# @ moka
+#: inc/widgets.php:20
+msgid "Social Links (Moka)"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:62
+msgid "Twitter"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:68
+msgid "Facebook"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:74
+msgid "Google+"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:80
+msgid "App.net"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:85
+msgid "Flickr"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:90
+msgid "Instagram"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:95
+msgid "Picasa"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:100
+msgid "500px"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:105
+msgid "YouTube"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:110
+msgid "Vimeo"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:115
+msgid "Dribbble"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:120
+msgid "Ffffound"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:125
+msgid "Pinterest"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:130
+msgid "Behance Network"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:135
+msgid "deviantART"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:140
+msgid "Squidoo"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:145
+msgid "Slideshare"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:150
+msgid "Lastfm"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:155
+msgid "Grooveshark"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:160
+msgid "Soundcloud"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:165
+msgid "Foursquare"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:170
+msgid "GitHub"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:175
+msgid "LinkedIn"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:180
+msgid "Xing"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:185
+msgid "WordPress"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:190
+msgid "Tumblr"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:195
+msgid "RSS Feed"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:200
+msgid "RSS Comments"
+msgstr "RSS dei Commenti"
+
+# @ moka
+#: inc/widgets.php:251 inc/widgets.php:491 inc/widgets.php:621
+msgid "Title:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:256
+msgid "Twitter URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:261
+msgid "Facebook URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:266
+msgid "Google+ URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:271
+msgid "App.net URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:276
+msgid "Flickr URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:281
+msgid "Instagram URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:286
+msgid "Picasa URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:291
+msgid "500px URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:296
+msgid "YouTube URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:301
+msgid "Vimeo URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:306
+msgid "Dribbble URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:311
+msgid "Ffffound URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:316
+msgid "Pinterest URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:321
+msgid "Behance Network URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:326
+msgid "deviantART URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:331
+msgid "Squidoo URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:336
+msgid "Slideshare URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:341
+msgid "Last.fm URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:346
+msgid "Grooveshark URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:351
+msgid "Soundcloud URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:356
+msgid "Foursquare URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:361
+msgid "GitHub URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:366
+msgid "Linkedin URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:371
+msgid "Xing URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:376
+msgid "WordPress URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:381
+msgid "Tumblr URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:386
+msgid "RSS-Feed URL:"
+msgstr ""
+
+# @ moka
+#: inc/widgets.php:391
+msgid "RSS for Comments URL:"
+msgstr "URL dell'RSS dei Commenti:"
+
+# @ moka
+#: inc/widgets.php:409
+msgid "A number of Recent Posts filtered by category"
+msgstr "Un numero di Articoli Recenti filtrati per categoria"
+
+# @ moka
+#: inc/widgets.php:411
+msgid "Recent Posts by Category (Moka)"
+msgstr "Articoli Recenti per Categoria (Moka)"
+
+# @ moka
+#: inc/widgets.php:496
+msgid "Number of posts, choose between 4, 8 or 12:"
+msgstr "Numero di articoli, scegli tra 4, 8 o 12:"
+
+# @ moka
+#: inc/widgets.php:501
+msgid "Category ID numbers (to choose which categories to include):"
+msgstr "Identificativi ID Categoria (per scegliere quali includere):"
+
+# @ moka
+#: inc/widgets.php:521
+msgid "Big Quote (Moka)"
+msgstr "Citazione enfatizzata (Moka)"
+
+# @ moka
+#: inc/widgets.php:554
+msgid "Quote Text:"
+msgstr "Testo della citazione:"
+
+# @ moka
+#: inc/widgets.php:559
+msgid "Quote Author:"
+msgstr "Autore della Citazione:"
+
+# @ moka
+#: inc/widgets.php:579
+msgid "About (Moka)"
+msgstr "About (Moka)"
+
+# @ moka
+#: inc/widgets.php:626
+msgid "Image URL:"
+msgstr "URL immagine:"
+
+# @ moka
+#: inc/widgets.php:631
+msgid "Image Width (e.g. 517):"
+msgstr "Larghezza dell’Immagine (ad es. 517):"
+
+# @ moka
+#: inc/widgets.php:636
+msgid "Image Height (e.g. 517):"
+msgstr "Altezza dell’Immagine (ad es. 517):"
+
+# @ moka
+#: inc/widgets.php:641
+msgid "About Text:"
+msgstr "Testo About:"
+
+# @ moka
+#: inc/widgets.php:646
+msgid "Additional Info / Links:"
+msgstr "Ulteriori informazioni / Links:"
+
+# @ moka
+#: search-main.php:11 searchform.php:11
+msgctxt "placeholder"
+msgid "Type to Search &hellip;"
+msgstr "Scrivi per Cercare &hellip;"
+
+# @ moka
+#: search-main.php:12 searchform.php:12
+msgctxt "submit button"
+msgid "Search"
+msgstr "Cerca"
+
+# @ moka
+#: search.php:15
+#, php-format
+msgid "Search Results for &ldquo;%s&rdquo;"
+msgstr "Risultati della Ricerca per  &ldquo;%s&rdquo;"
+
+# @ moka
+#: search.php:37
+msgid "Sorry, but nothing matched your search criteria. Please try again!"
+msgstr "Spiacente, nessun contenuto ha soddisfatto i tuoi criteri di ricerca. Prova ancora per favore!"
+
+# @ moka
+#: share.php:10
+msgid "Share"
+msgstr "Condividi"
+
+# @ moka
+#: share.php:13
+msgid "Tweet"
+msgstr "Tweet"

@@ -1,0 +1,1029 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Moka v1.1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-28 15:44+0000\n"
+"PO-Revision-Date: 2019-12-28 15:46+0000\n"
+"Last-Translator: admin <yourname@yourdomain.com>\n"
+"Language-Team: Deutsch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+"Language: de_DE\n"
+"X-Loco-Version: 2.3.1; wp-5.2.5"
+
+#: functions.php:312
+#, php-format
+msgid " %s "
+msgstr " %s "
+
+#. translators: 1: date
+#: functions.php:325
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: inc/theme-options.php:106
+#, php-format
+msgid "%s Theme Options"
+msgstr "%s Theme Optionen"
+
+#: inc/theme-options.php:123
+msgid ""
+". Then copy your logo image file URL and insert the URL here. If you want to "
+"include a Retina-optimized logo image, just prepare the image 2x the actual "
+"size (e.g. 400x160px), but still type in the 200 and 80 as width and height "
+"value below."
+msgstr ""
+" hoch. Dann kopiere deine Logobild URL und füge die URL hier ein. Wenn du "
+"ein Retina-optimiertes Logobild nutzen möchtest, lade einfach ein doppelt so "
+"großes Bild hoch, wie du eigentlich benötigst (also z.B. 400x160px). Trage "
+"aber dennoch unten die eigentlich benötigte Größe von 200 und 80 bei Breite "
+"und Höhe ein."
+
+#: comments.php:28
+#, php-format
+msgid "1 Comment so far"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 Kommentar"
+msgstr[1] "%1$s Kommentare"
+
+#: inc/widgets.php:101
+msgid "500px"
+msgstr ""
+
+#: inc/widgets.php:292
+msgid "500px URL:"
+msgstr "500px URL:"
+
+#: comments.php:63
+msgid "<h3 id=\"reply-title\">Leave a Reply</h3>"
+msgstr "<h3 id=\"reply-title\">Schreibe eine Antwort</h3>"
+
+#: functions.php:426
+msgid "<span>&laquo; Older Posts</span>"
+msgstr "<span>&laquo; Ältere Artikel</span>"
+
+#: content-single.php:67
+msgid "<span>&laquo; Previous Post</span>"
+msgstr "<span>&laquo; Vorheriger Artikel</span>"
+
+#: comments.php:47
+msgid "<span>&larr; Older</span>"
+msgstr "<span>&larr; Ältere</span>"
+
+#: image.php:81
+msgid "<span>&larr; Previous</span>"
+msgstr "<span>&larr; Vorherige</span>"
+
+#: comments.php:48
+msgid "<span>Newer &rarr;</span>"
+msgstr "<span>Neuere &rarr;</span>"
+
+#: functions.php:427
+msgid "<span>Newer Posts &raquo;</span>"
+msgstr "<span>Neuere Artikel &raquo;</span>"
+
+#: image.php:82
+msgid "<span>Next &rarr;</span>"
+msgstr "<span>Neuere &rarr;</span>"
+
+#: content-single.php:66
+msgid "<span>Next Post  &raquo;</span>"
+msgstr "<span>Nächster Artikel  &raquo;</span>"
+
+#: functions.php:346
+msgid "<span>Pingback:</span>"
+msgstr "<span>Pingback:</span>"
+
+#: inc/widgets.php:412
+msgid "A number of Recent Posts filtered by category"
+msgstr "Eine Anzahl neuester Artikel gefiltert nach Kategorien"
+
+#: inc/widgets.php:580
+msgid "About (Moka)"
+msgstr "About (Moka)"
+
+#: inc/widgets.php:645
+msgid "About Text:"
+msgstr "About-Text:"
+
+#: content-single.php:52
+msgid "About the Author"
+msgstr "Über den Autor"
+
+#: inc/widgets.php:582
+msgid ""
+"About widget to include a picture and intro text on the Front Page (please "
+"use for Front Page Widget Area only)"
+msgstr ""
+"About Widget, um ein Bild und einleitenden Text auf der Startseite "
+"anzuzeigen (nur im Startseiten Widgetbereich einsetzbar)."
+
+#: inc/widgets.php:650
+msgid "Additional Info / Links:"
+msgstr "Zusätzliche Info / Links:"
+
+#: archive.php:29
+#, php-format
+msgid "All posts by &ldquo;%s&rdquo;"
+msgstr "Alle Artikel von &ldquo;%s&rdquo;"
+
+#: archive.php:19
+#, php-format
+msgid "All posts filed under &ldquo;%s&rdquo;"
+msgstr "Alle Artikel in der Kategorie &ldquo;%s&rdquo;"
+
+#: archive.php:22
+#, php-format
+msgid "All posts tagged &ldquo;%s&rdquo;"
+msgstr "Alle Artikel mit dem Schlagwort &ldquo;%s&rdquo;"
+
+#: inc/widgets.php:81
+msgid "App.net"
+msgstr ""
+
+#: inc/widgets.php:272
+msgid "App.net URL:"
+msgstr "App.net URL:"
+
+#. Name of the template
+msgid "Archive Page"
+msgstr "Archivseite"
+
+#: archive.php:46
+msgid "Archives"
+msgstr "Archiv"
+
+#: inc/widgets.php:131
+msgid "Behance Network"
+msgstr ""
+
+#: inc/widgets.php:322
+msgid "Behance Network URL:"
+msgstr "Behance Network URL:"
+
+#: inc/customizer.php:89
+msgid "Big Font Color (in Widgets)"
+msgstr "Große Schriftfarbe (in Widgets)"
+
+#: inc/widgets.php:521
+msgid "Big Quote (Moka)"
+msgstr "Großes Zitat (Moka)"
+
+#: inc/widgets.php:503
+msgid "Category ID numbers (to choose which categories to include):"
+msgstr ""
+"Kategorie ID Nummern (um zu bestimmen, welche Kategorien angezeigt werden "
+"sollen):"
+
+#: inc/theme-options.php:187
+msgid ""
+"Check this box to include share buttons (for Twitter, Facebook, Google+) on "
+"your blogs front page and on single post pages."
+msgstr ""
+"Wähle diese Option, um die Share-Buttons (für Twitter, Google+, Facebook) "
+"auf der Blog-Startseite, sowie auf Artikel-Einzelseiten anzuzeigen."
+
+#: inc/theme-options.php:196
+msgid ""
+"Check this box to include the share post buttons <strong>only</strong> on "
+"single posts (below the post content)."
+msgstr ""
+"Wähle diese Option, um die Teilen-Buttons <strong>nur</strong> in Einzel-"
+"Artikeln (unterhalb des Artikel-Inhalts) anzuzeigen."
+
+#: inc/theme-options.php:163
+msgid ""
+"Check this box to show automatic post excerpts on your blog page. With this "
+"option you will not need to add the more tag in posts."
+msgstr ""
+"Wähle diese Option, um automatische Artikel-Exzerpte auf der Blogseite "
+"anzuzeigen. Mit diese Option benötigst du keinen More-Link, um Artikel zu "
+"kürzen."
+
+#: inc/theme-options.php:154
+msgid ""
+"Check this box to use the fixed positioned sidebar feature on desktop "
+"screens."
+msgstr ""
+"Wähle diese Option, wenn du die Sidebar auf großen Bildschirmen am oberen "
+"Bildschirmrand fixieren möchtest, so dass diese immer sichtbar ist."
+
+#: header.php:30
+msgid "Close Search"
+msgstr "Suche schliessen"
+
+#: content-gallery.php:19 content-single.php:25 content.php:25
+#: content-sticky.php:25 content-recent.php:38 content-quote.php:19
+#: content-link.php:19 content-image.php:19 content-slider.php:38
+#: inc/widgets.php:464
+msgid "comment 0"
+msgstr "Kommentare 0"
+
+#: content-gallery.php:19 content-single.php:25 content.php:25
+#: content-sticky.php:25 content-recent.php:38 content-quote.php:19
+#: content-link.php:19 content-image.php:19 content-slider.php:38
+#: inc/widgets.php:464
+msgid "comment 1"
+msgstr "Kommentare 1"
+
+#: content-gallery.php:19 content-single.php:25 content.php:25
+#: content-sticky.php:25 content-recent.php:38 content-quote.php:19
+#: content-link.php:19 content-image.php:19 content-slider.php:38
+#: inc/widgets.php:464
+msgid "comments %"
+msgstr "Kommentare %"
+
+#: comments.php:58
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: inc/theme-options.php:203
+msgid "Custom CSS"
+msgstr "Eigenes CSS"
+
+#: inc/theme-options.php:117
+msgid "Custom Logo"
+msgstr "Eigenes Logo"
+
+#: inc/theme-options.php:172
+msgid "Customize the footer credit text. Standard HTML is allowed."
+msgstr "Trage deinen eigenen Footer-Text ein. Standard HTML-Code ist möglich."
+
+#: inc/customizer.php:16
+msgid ""
+"Customize your title background and text color, your link and link hover "
+"color, background color and big widget font colors."
+msgstr ""
+"Passe die Blogtitel Hintergrund- und Textfarbe, die Link- und Link-Hover "
+"Farbe, die Hintergrundfarbe und die Farbe der großen Schrift in den "
+"Widgetbereichen an."
+
+#: archive.php:37
+#, php-format
+msgid "Daily archives of &ldquo;%s&rdquo;"
+msgstr "Archiv vom &ldquo;%s&rdquo;"
+
+#: inc/customizer.php:61
+msgid ""
+"Define the number of recent posts you want to show in the 3-column recent "
+"posts area on the custom Moka front page. The number can be 0, 3, 6, 9 or 12."
+msgstr ""
+"Wähle die Anzahl neuester Artikel im 3-spaltigen Artikelbereich auf der "
+"individuellen Moka Startseite. Die Zahl kann 0, 3, 6, 9 oder 12 sein."
+
+#: inc/widgets.php:136
+msgid "deviantART"
+msgstr ""
+
+#: inc/widgets.php:327
+msgid "deviantART URL:"
+msgstr "deviantART URL:"
+
+#: inc/widgets.php:116
+msgid "Dribbble"
+msgstr ""
+
+#: inc/widgets.php:307
+msgid "Dribbble URL:"
+msgstr "Dribbble URL:"
+
+#: functions.php:332 functions.php:347 content-gallery.php:22
+#: content-single.php:28 content.php:28 content-sticky.php:28
+#: content-recent.php:41 content-quote.php:22 content-link.php:22
+#: content-image.php:22 image.php:25 inc/widgets.php:467
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#. Author of the theme
+msgid "Elmastudio"
+msgstr ""
+
+#: inc/widgets.php:69
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/widgets.php:262
+msgid "Facebook URL:"
+msgstr "Facebook URL:"
+
+#: inc/widgets.php:121
+msgid "Ffffound"
+msgstr ""
+
+#: inc/widgets.php:312
+msgid "Ffffound URL:"
+msgstr "Ffffound URL:"
+
+#: content-gallery.php:53 content-single.php:44 content.php:59
+#: content-sticky.php:45 content-quote.php:46 content-link.php:46
+#: content-image.php:53
+msgid "Filed under: "
+msgstr "In Kategorie: "
+
+#: content-archive.php:19
+msgid "Filter by Tags"
+msgstr "Filter nach Schlagwörtern"
+
+#: inc/theme-options.php:148
+msgid "Fixed Sidebar, Post Excerpts & Footer Text"
+msgstr "Fixierte Sidebar, Artikel-Exzerpte & Footer-Text"
+
+#: inc/widgets.php:86
+msgid "Flickr"
+msgstr ""
+
+#: inc/widgets.php:277
+msgid "Flickr URL:"
+msgstr "Flickr URL:"
+
+#: inc/theme-options.php:168 inc/theme-options.php:170
+msgid "Footer Credit Text"
+msgstr "Footer Credit-Text"
+
+#: functions.php:372
+msgid "Footer Widget Area 1"
+msgstr "Footer Widgetbereich 1"
+
+#: functions.php:382
+msgid "Footer Widget Area 2"
+msgstr "Footer Widgetbereich 2"
+
+#: functions.php:392
+msgid "Footer Widget Area 3"
+msgstr "Footer Widgetbereich 3"
+
+#: inc/widgets.php:166
+msgid "Foursquare"
+msgstr ""
+
+#: inc/widgets.php:357
+msgid "Foursquare URL:"
+msgstr "Foursquare URL:"
+
+#: inc/customizer.php:22
+msgid "Front Page Settings"
+msgstr "Startseite Einstellungen"
+
+#. Name of the template
+msgid "Front Page Slider"
+msgstr "Startseiten Slider"
+
+#. Name of the template
+msgid "Front Page Sticky"
+msgstr "Startseite Sticky"
+
+#: functions.php:362
+msgid "Front Page Widget Area"
+msgstr "Startseite Widgetbereich"
+
+#. Name of the template
+msgid "Full Width Page"
+msgstr "Seite in voller Breite"
+
+#: inc/widgets.php:171
+msgid "GitHub"
+msgstr ""
+
+#: inc/widgets.php:362
+msgid "GitHub URL:"
+msgstr "GitHub URL:"
+
+#: inc/widgets.php:75
+msgid "Google+"
+msgstr ""
+
+#: inc/widgets.php:267
+msgid "Google+ URL:"
+msgstr "Google+ URL:"
+
+#: inc/widgets.php:156
+msgid "Grooveshark"
+msgstr ""
+
+#: inc/widgets.php:347
+msgid "Grooveshark URL:"
+msgstr "Grooveshark URL:"
+
+#: footer.php:37
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.elmastudio.de/en/"
+msgstr "https://www.elmastudio.de/"
+
+#. URI of the theme
+msgid "https://www.elmastudio.de/en/themes/moka/"
+msgstr "https://www.elmastudio.de/wordpress-themes/moka/"
+
+#: inc/widgets.php:640
+msgid "Image Height (e.g. 517):"
+msgstr "Bild-Höhe (z.B. 517):"
+
+#: inc/widgets.php:630
+msgid "Image URL:"
+msgstr "Bild URL:"
+
+#: inc/widgets.php:635
+msgid "Image Width (e.g. 517):"
+msgstr "Bild-Breite (z.B. 517):"
+
+#: inc/theme-options.php:205 inc/theme-options.php:207
+msgid "Include Custom CSS"
+msgstr "Eigenes CSS integrieren"
+
+#: inc/theme-options.php:209
+msgid "Include custom CSS styles, use !important to overwrite existing styles."
+msgstr ""
+"Integriere eigene CSS-Styles. Nutze !important , um bestehende CSS-Styles zu "
+"überschreiben."
+
+#: inc/theme-options.php:141
+msgid "Include your custom logo height, e.g. 80 (value only, no unit)"
+msgstr "Trage deine Logobild-Höhe ein, z.B. 80 (nur den Wert, ohne Einheit)"
+
+#: inc/theme-options.php:132
+msgid ""
+"Include your custom logo width, e.g. 200 (value only, no unit). The maximum "
+"logo image width is 200px."
+msgstr ""
+"Trage deine eigene Logobild-Breite, z.B. 200 ein (nur den Wert, ohne Einheit)"
+". Die maximale Logobreite ist 200 Pixel."
+
+#: inc/widgets.php:91
+msgid "Instagram"
+msgstr ""
+
+#: inc/widgets.php:282
+msgid "Instagram URL:"
+msgstr "Instagram URL:"
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try another search "
+"term?"
+msgstr ""
+"Es scheint, als kann an dieser Stelle nichts gefunden werden. Vielleicht "
+"hilft die Suche mit einem anderen Suchbegriff?"
+
+#: archive.php:84
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr "Es scheint als könnten wir nicht finden, wonach du suchst."
+
+#: functions.php:47
+msgid "L"
+msgstr ""
+
+#: functions.php:46
+msgid "large"
+msgstr "groß"
+
+#: functions.php:52
+msgid "larger"
+msgstr "größer"
+
+#: inc/widgets.php:342
+msgid "Last.fm URL:"
+msgstr "Last.fm URL:"
+
+#: inc/widgets.php:151
+msgid "Lastfm"
+msgstr ""
+
+#: functions.php:143
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/customizer.php:77
+msgid "Link Color"
+msgstr "Linkfarbe"
+
+#: inc/customizer.php:83
+msgid "Link Hover Color"
+msgstr "Link-Hoverfarbe"
+
+#: inc/widgets.php:176
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/widgets.php:367
+msgid "Linkedin URL:"
+msgstr "Linkedin URL:"
+
+#: inc/theme-options.php:119 inc/theme-options.php:121
+msgid "Logo Image"
+msgstr "Logo-Bild"
+
+#: inc/theme-options.php:137 inc/theme-options.php:139
+msgid "Logo Image Height"
+msgstr "Logobild Höhe"
+
+#: inc/theme-options.php:128 inc/theme-options.php:130
+msgid "Logo Image Width"
+msgstr "Logobild Breite"
+
+#: functions.php:41
+msgid "M"
+msgstr ""
+
+#: header.php:47
+msgid "Menu"
+msgstr "Menü"
+
+#. Name of the theme
+msgid "Moka"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Moka is a responsive, minimal blog, magazine and creative business theme "
+"with a beautiful, modern design and lots of easy-to-use, individual theme "
+"features like a customizable front page template, an about and quote "
+"template and a sticky sidebar option."
+msgstr ""
+
+#: archive.php:40
+#, php-format
+msgid "Monthly archives of &ldquo;%s&rdquo;"
+msgstr "Archiv des Monats &ldquo;%s&rdquo;"
+
+#: archive.php:80 search.php:34
+msgid "Nothing Found"
+msgstr "Keine Einträge gefunden"
+
+#: comments.php:66
+msgctxt "noun"
+msgid "Write your message here... <span class=\"required\">*</span>"
+msgstr "Schreibe eine Nachricht... <span class=\"required\">*</span>"
+
+#: inc/widgets.php:498
+msgid "Number of posts, choose between 4, 8 or 12:"
+msgstr "Anzahl der Artikel, wähle zwischen 4, 8 und 12:"
+
+#: inc/customizer.php:57
+msgid "Number of Recent Posts"
+msgstr "Anzahl der neuesten Artikel"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ups! Diese Seite konnte nicht gefunden werden."
+
+#: content-gallery.php:43 content-single.php:35 content.php:49
+#: content-image.php:43
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: content-gallery.php:24 content.php:14 content.php:30 content-sticky.php:14
+#: content-sticky.php:30 content-recent.php:14 content-recent.php:20
+#: content-quote.php:24 content-featured.php:16 content-link.php:24
+#: content-image.php:24 content-slider.php:27 inc/widgets.php:448
+#: inc/widgets.php:453
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink zu %s"
+
+#: inc/widgets.php:96
+msgid "Picasa"
+msgstr ""
+
+#: inc/widgets.php:287
+msgid "Picasa URL:"
+msgstr "Picasa URL:"
+
+#: inc/widgets.php:126
+msgid "Pinterest"
+msgstr ""
+
+#: inc/widgets.php:317
+msgid "Pinterest URL:"
+msgstr "Pinterest URL:"
+
+#: search-main.php:11 searchform.php:11
+msgctxt "placeholder"
+msgid "Type to Search &hellip;"
+msgstr "Suche &hellip;"
+
+#: comments.php:67
+msgid "Post Comment"
+msgstr "Kommentar senden"
+
+#: inc/theme-options.php:159 inc/theme-options.php:161
+msgid "Post Excerpts"
+msgstr "Artikel-Exzerpte"
+
+#: content-single.php:55
+#, php-format
+msgid "Posted by %s"
+msgstr "Veröffentlicht von %s"
+
+#: image.php:71
+msgid "Posted in: "
+msgstr "Veröffentlicht in: "
+
+#: functions.php:86
+msgid "Primary Navigation"
+msgstr "Haupt-Navigation"
+
+#: footer.php:37
+msgid "Proudly powered by"
+msgstr "Proudly powered by"
+
+#: inc/widgets.php:562
+msgid "Quote Author:"
+msgstr "Zitat-Autor:"
+
+#: inc/widgets.php:557
+msgid "Quote Text:"
+msgstr "Zitat-Text:"
+
+#: content.php:46 content-sticky.php:36
+msgid "Read More"
+msgstr "Weiterlesen"
+
+#: functions.php:278
+msgid "Read more"
+msgstr "Weiterlesen"
+
+#: functions.php:232
+msgid "Recent Post Thumbs"
+msgstr ""
+
+#: inc/widgets.php:410
+msgid "Recent Posts by Category (Moka)"
+msgstr "Neueste Artikel nach Kategorien (Moka)"
+
+#: functions.php:40
+msgid "regular"
+msgstr "regular"
+
+#: functions.php:329
+msgid "Reply<span> to this comment</span>"
+msgstr "Antworte<span> auf diesen Kommentar</span>"
+
+#: inc/widgets.php:201
+msgid "RSS Comments"
+msgstr "RSS Kommentare"
+
+#: inc/widgets.php:196
+msgid "RSS Feed"
+msgstr ""
+
+#: inc/widgets.php:392
+msgid "RSS for Comments URL:"
+msgstr "RSS der Kommentare URL:"
+
+#: inc/widgets.php:387
+msgid "RSS-Feed URL:"
+msgstr "RSS-Feed URL:"
+
+#: functions.php:35
+msgid "S"
+msgstr ""
+
+#: header.php:50
+msgid "Search"
+msgstr "Suche"
+
+#: search.php:15
+#, php-format
+msgid "Search Results for &ldquo;%s&rdquo;"
+msgstr "Suchergebnisse für &ldquo;%s&rdquo;"
+
+#: share.php:10
+msgid "Share"
+msgstr "Teilen"
+
+#: inc/theme-options.php:181
+msgid "Share Buttons"
+msgstr "Teilen Buttons"
+
+#: inc/theme-options.php:183 inc/theme-options.php:185
+msgid "Share option for posts"
+msgstr "Teilen-Buttons für Artikel"
+
+#: inc/theme-options.php:192 inc/theme-options.php:194
+msgid "Share option on single posts only"
+msgstr "Teilen-Buttons nur in Einzel-Artikeln"
+
+#: inc/widgets.php:20
+msgid "Show icons with links to your social profiles"
+msgstr "Zeige Icons mit Links zu deinen sozialen Profilen"
+
+#: inc/theme-options.php:150 inc/theme-options.php:152
+msgid "Sidebar Fixed Position"
+msgstr "Oben fixierte Sidebar"
+
+#: inc/customizer.php:71
+msgid "Site Title Background Color"
+msgstr "Seitentitel Hintergrundfarbe"
+
+#: inc/customizer.php:65
+msgid "Site Title Color"
+msgstr "Seiten-Titelfarbe"
+
+#: inc/widgets.php:146
+msgid "Slideshare"
+msgstr ""
+
+#: inc/widgets.php:337
+msgid "Slideshare URL:"
+msgstr "Slideshare URL:"
+
+#: functions.php:34
+msgid "small"
+msgstr "klein"
+
+#: inc/widgets.php:18
+msgid "Social Links (Moka)"
+msgstr "Social Links (Moka)"
+
+#: functions.php:402
+msgid "Social Links Footer Widget Area"
+msgstr "Social Links Footer Widgetbereich"
+
+#: search.php:37
+msgid "Sorry, but nothing matched your search criteria. Please try again!"
+msgstr ""
+"Entschuldige, es konnten keine Einträge gefunden werden. Bitte versuche es "
+"erneut!"
+
+#: inc/widgets.php:161
+msgid "Soundcloud"
+msgstr ""
+
+#: inc/widgets.php:352
+msgid "Soundcloud URL:"
+msgstr "Soundcloud URL:"
+
+#: inc/widgets.php:141
+msgid "Squidoo"
+msgstr ""
+
+#: inc/widgets.php:332
+msgid "Squidoo URL:"
+msgstr "Squidoo URL:"
+
+#: search-main.php:12 searchform.php:12
+msgctxt "submit button"
+msgid "Search"
+msgstr "Suche"
+
+#: content-single.php:47
+msgid "Tagged: "
+msgstr "Schlagwörter: "
+
+#: inc/jetpack.php:30
+msgid ""
+"The featured content slider displays at the top of the Front Page Slider "
+"template."
+msgstr ""
+"Der Featured Content Slider wird ganz oben im Seiten-Template \\\"Front Page "
+"Slider\\\" angezeigt."
+
+#: content-archive.php:24
+msgid "The Latest 30 Posts"
+msgstr "Die neuesten 30 Artikel"
+
+#: content-archive.php:29
+msgid "The Monthly Archive"
+msgstr "Artikel nach Monaten sortiert"
+
+#: inc/theme-options.php:61 inc/theme-options.php:62
+msgid "Theme Options"
+msgstr "Theme Optionen"
+
+#: footer.php:38
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr "Theme: %1$s von %2$s"
+
+#: comments.php:12
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Dieser Artikel ist Passwort geschützt. Trage das Passwort ein, um die "
+"Kommentare zu sehen."
+
+#: inc/widgets.php:252 inc/widgets.php:493 inc/widgets.php:625
+msgid "Title:"
+msgstr "Titel:"
+
+#: inc/widgets.php:191
+msgid "Tumblr"
+msgstr ""
+
+#: inc/widgets.php:382
+msgid "Tumblr URL:"
+msgstr "Tumblr URL:"
+
+#: share.php:13
+msgid "Tweet"
+msgstr "Twitter"
+
+#: inc/widgets.php:63
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/widgets.php:257
+msgid "Twitter URL:"
+msgstr "Twitter URL:"
+
+#: header.php:31
+msgid ""
+"Type your search terms above and press return to see the search results."
+msgstr ""
+"Tippe deine Suchbegriffe ein und drücke Enter, um Suchergebnisse anzuzeigen."
+
+#: inc/theme-options.php:123
+msgid ""
+"Upload your own logo image with a max width of 200px and a flexible height "
+"(e.g. 200x80px) using the "
+msgstr ""
+"Lade dein eigenes Logobild mit einer max. Breite von 200 Pixel und einer "
+"flexiblen Höhe (z.B. 200x80px) über die "
+
+#: inc/widgets.php:111
+msgid "Vimeo"
+msgstr ""
+
+#: inc/widgets.php:302
+msgid "Vimeo URL:"
+msgstr "Vimeo URL:"
+
+#: functions.php:404
+msgid ""
+"Widget area to include social links widget above the footer credit text. "
+"Please note that this widget area is only intended for the Social Links "
+"widget."
+msgstr ""
+"Widgetbereich, um Social Links oberhalb des Footer-Credittextes anzuzeigen. "
+"Dieser Widgetbereich ist ausschließlich für das Social Links Widget geeignet."
+
+#: inc/widgets.php:523
+msgid ""
+"Widget to include a big quote or slogan on the Front Page (please use for "
+"Front Page Widget Area only)."
+msgstr ""
+"Widget um ein großes Zitat oder einen Slogan an der Startseite anzuzeigen "
+"(bitte nur im Startseiten Widgetbereich nutzen)."
+
+#: functions.php:364
+msgid ""
+"Widgets will appear in a single column layout on the custom front page above "
+"the footer."
+msgstr ""
+"Widgets werden in einem einspaltigen Layout auf der individuellen Startseite "
+"über dem Footer eingefügt."
+
+#: functions.php:374
+msgid "Widgets will appear in the first footer column."
+msgstr "Widgets werden in der ersten Footer-Spalte angezeigt."
+
+#: functions.php:384
+msgid "Widgets will appear in the second footer column."
+msgstr "Widgets werden in der zweiten Footer-Spalte angezeigt."
+
+#: functions.php:394
+msgid "Widgets will appear in the third footer column."
+msgstr "Widgets werden in der dritten Footer-Spalte angezeigt."
+
+#: inc/widgets.php:186
+msgid "WordPress"
+msgstr ""
+
+#: inc/theme-options.php:123
+msgid "WordPress Media Uploader"
+msgstr "WordPress Mediathek"
+
+#: inc/widgets.php:377
+msgid "WordPress URL:"
+msgstr "WordPress URL:"
+
+#: footer.php:37
+msgid "WordPress."
+msgstr "WordPress."
+
+#: inc/widgets.php:181
+msgid "Xing"
+msgstr ""
+
+#: inc/widgets.php:372
+msgid "Xing URL:"
+msgstr "Xing URL:"
+
+#: functions.php:53
+msgid "XL"
+msgstr ""
+
+#: archive.php:43
+#, php-format
+msgid "Yearly archives of &ldquo;%s&rdquo;"
+msgstr "Archiv von  &ldquo;%s&rdquo;"
+
+#: functions.php:318
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar befindet sich in Moderation."
+
+#: inc/widgets.php:106
+msgid "YouTube"
+msgstr ""
+
+#: inc/widgets.php:297
+msgid "YouTube URL:"
+msgstr "YouTube URL:"
+
+msgid ""
+"<strong>%s</strong> supports automatic updates using WordPress' update "
+"mechanism. To use this feature you need to activate the theme using your "
+"Product Key, which can be found in your Elmastudio account dashboard. The "
+"theme stays fully functional without activation and still can be updated "
+"manually. %sClick here%s to activate <strong>%s</strong>."
+msgstr ""
+"<strong>%s</strong> unterstützt automatische Updates über den "
+"Aktualisierungsmechanismus von WordPress. Dazu muss das Theme mit einem "
+"Produktschlüssel aktiviert werden, den du in deinem Elmastudio-Konto findest."
+" Das Theme funktioniert uneingeschränkt auch ohne diese Aktivierung und "
+"lässt sich jederzeit manuell aktualisieren. %sKlicke hier%s um <strong>"
+"%s</strong> zu aktivieren."
+
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get %s updates. Please add %s to %s."
+msgstr ""
+"<strong>Achtung!</strong> Du blockierst externe Anfragen, so dass keine %s-"
+"Updates geladen werden können. Bitte füge %s zu deinen %s hinzu."
+
+msgid " Activation"
+msgstr "-Aktivierung"
+
+msgid " Product Key Activation"
+msgstr "-Produktschlüssel-Aktivierung"
+
+msgid "Product Key Activation"
+msgstr "Produktschlüssel-Aktivierung"
+
+msgid "Product Key Deactivation"
+msgstr "Produktschlüssel-Deaktivierung"
+
+msgid "Product Key"
+msgstr "Produktschlüssel"
+
+msgid "Product ID"
+msgstr "Produkt-ID"
+
+msgid "Product Key Status"
+msgstr "Produktschlüssel-Status"
+
+msgid "Deactivate Product Key"
+msgstr "Deaktiviere Produktschlüssel"
+
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+msgid "Activated"
+msgstr "Aktiviert"
+
+msgid "Deactivated"
+msgstr "Deaktiviert"
+
+msgid ""
+"Connection failed to the Elmastudio server. Try again later. There may be a "
+"problem on your server preventing outgoing requests."
+msgstr ""
+"Die Verbindung zum Elmastudio-Server konnte nicht hergestellt werden. Bitte "
+"versuche es später erneut. Auf deinem Server könnte es ein Problem geben, "
+"welches ausgehende Verbindungen einschränkt."
+
+msgid "Product Key deactivated."
+msgstr "Produktschlüssel deaktiviert."
+
+msgid ""
+"The Product Key could not be deactivated. Use the Product Key Deactivation "
+"tab to manually deactivate the Product Key before activating a new Product "
+"Key."
+msgstr ""
+"Der Produktschlüssel konnte nicht deaktiviert werden. Klicke auf "
+"Produktschlüssel-Deaktivierung und deaktiviere den Produktschlüssel manuell "
+"bevor du den neuen Produktschlüssel aktivierst."
+
+msgid "Deactivates an Product Key so it can be used on another blog."
+msgstr ""
+"Deaktiviert einen Produktschlüssel, so dass dieser auf einer anderen Seite "
+"verwendet werden kann."
+
+msgid "%s activated."
+msgstr "%s aktiviert."
