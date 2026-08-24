@@ -39,7 +39,7 @@
 	<footer class="entry-footer clearfix">
 		<?php // Include Share-Btns
 		$options = get_option('moka_theme_options');
-		if( $options['share-posts'] ) : ?>
+		if( ! empty( $options['share-posts'] ) ) : ?>
 			<?php get_template_part( 'share'); ?>
 		<?php endif; ?>
 		<div class="entry-cats"><span><?php _e('Filed under: ', 'moka') ?></span><?php the_category(', '); ?></div>

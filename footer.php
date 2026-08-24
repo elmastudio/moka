@@ -21,7 +21,7 @@
 
 		<?php
 		$options = get_option('moka_theme_options');
-			if($options['custom_footertext'] != '' ){
+			if ( ! empty( $options['custom_footertext'] ) ){
 				echo ('<ul class="credit"<li class="copyright">');
 				echo stripslashes($options['custom_footertext']);
 				echo ('</li></ul>');
@@ -47,7 +47,7 @@
 
 <?php // Includes Twitter and Google+ button code if the share post option is active.
 	$options = get_option('moka_theme_options');
-	if($options['share-singleposts'] or $options['share-posts']) : ?>
+	if ( ! empty( $options['share-singleposts'] ) || ! empty( $options['share-posts'] ) ) : ?>
 	<script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
 	<script type="text/javascript">
 	(function() {

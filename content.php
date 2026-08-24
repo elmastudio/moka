@@ -40,7 +40,7 @@
 	<div class="entry-content clearfix">
 		<?php // Show Excerpt via Theme Options
 			$options = get_option('moka_theme_options');
-			if( $options['show-excerpt'] && ! get_post_format() && ! is_sticky() ) : ?>
+			if( ! empty( $options['show-excerpt'] ) && ! get_post_format() && ! is_sticky() ) : ?>
 				<?php the_excerpt(); ?>
 		<?php else : ?>
 				<?php the_content( __( 'Read More', 'moka' ) ); ?>
@@ -53,7 +53,7 @@
 
 	<footer class="entry-footer clearfix">
 		<?php // Include Share-Btns
-		if( $options['share-posts'] ) : ?>
+		if( ! empty( $options['share-posts'] ) ) : ?>
 			<?php get_template_part( 'share'); ?>
 		<?php endif; ?>
 		<div class="entry-cats"><span><?php _e('Filed under: ', 'moka') ?></span><?php the_category(', '); ?></div>
