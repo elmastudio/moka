@@ -32,32 +32,7 @@ function moka_setup() {
 	add_theme_support( 'align-wide' );
 
 	// Add support for editor font sizes.
-	add_theme_support( 'editor-font-sizes', array(
-		array(
-			'name' => __( 'small', 'moka' ),
-			'shortName' => __( 'S', 'moka' ),
-			'size' => 13,
-			'slug' => 'small'
-		),
-		array(
-			'name' => __( 'regular', 'moka' ),
-			'shortName' => __( 'M', 'moka' ),
-			'size' => 17,
-			'slug' => 'regular'
-		),
-		array(
-			'name' => __( 'large', 'moka' ),
-			'shortName' => __( 'L', 'moka' ),
-			'size' => 19,
-			'slug' => 'large'
-		),
-		array(
-			'name' => __( 'larger', 'moka' ),
-			'shortName' => __( 'XL', 'moka' ),
-			'size' => 23,
-			'slug' => 'larger'
-		)
-	) );
+
 
 	// Disable custom editor font sizes.
 	add_theme_support('disable-custom-font-sizes');
@@ -85,9 +60,7 @@ function moka_setup() {
 	) );
 
 	// This theme uses wp_nav_menu().
-	register_nav_menus( array (
-		'primary' => __( 'Primary Navigation', 'moka' ),
-	) );
+
 
 	// This theme allows users to set a custom background.
 	add_theme_support( 'custom-background', apply_filters( 'moka_custom_background_args', array(
@@ -448,3 +421,44 @@ add_filter( 'body_class', 'moka_body_class' );
 
 	// Add One Click Demo Import code.
 	require get_template_directory() . '/inc/demo-installer.php';
+
+/**
+ * Registrations that carry translated labels.
+ *
+ * WordPress 6.7 loads translations at init, so a __() call during
+ * after_setup_theme is too early and logs a notice on every request.
+ * These moved out of the setup function unchanged; only the hook differs.
+ */
+function moka_i18n_setup() {
+	add_theme_support( 'editor-font-sizes', array(
+		array(
+			'name' => __( 'small', 'moka' ),
+			'shortName' => __( 'S', 'moka' ),
+			'size' => 13,
+			'slug' => 'small'
+		),
+		array(
+			'name' => __( 'regular', 'moka' ),
+			'shortName' => __( 'M', 'moka' ),
+			'size' => 17,
+			'slug' => 'regular'
+		),
+		array(
+			'name' => __( 'large', 'moka' ),
+			'shortName' => __( 'L', 'moka' ),
+			'size' => 19,
+			'slug' => 'large'
+		),
+		array(
+			'name' => __( 'larger', 'moka' ),
+			'shortName' => __( 'XL', 'moka' ),
+			'size' => 23,
+			'slug' => 'larger'
+		)
+	) );
+
+	register_nav_menus( array (
+		'primary' => __( 'Primary Navigation', 'moka' ),
+	) );
+}
+add_action( 'init', 'moka_i18n_setup' );

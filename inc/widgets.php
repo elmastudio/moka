@@ -397,9 +397,6 @@
 	}
 }
 
-register_widget('moka_sociallinks');
-
-
 /*-----------------------------------------------------------------------------------*/
 /* Moka Recent Posts Widget
 /*-----------------------------------------------------------------------------------*/
@@ -508,9 +505,6 @@ class moka_recentposts extends WP_Widget {
 	}
 }
 
-register_widget('moka_recentposts');
-
-
 /*-----------------------------------------------------------------------------------*/
 /* Include Moka Big Quote Widget
 /*-----------------------------------------------------------------------------------*/
@@ -566,9 +560,6 @@ class moka_quote extends WP_Widget {
 		<?php
 	}
 }
-
-register_widget('moka_quote');
-
 
 /*-----------------------------------------------------------------------------------*/
 /* Include Moka About Widget
@@ -655,12 +646,15 @@ class moka_about extends WP_Widget {
 	}
 }
 
-register_widget('moka_about');
-
-
-
-
-
-
-
-
+/**
+ * Registered on widgets_init, which is where WordPress asks for it.
+ * At file scope the widget's constructor translated its own name before
+ * init, which WordPress 6.7 reports on every request.
+ */
+function moka_register_widgets() {
+	register_widget( 'moka_sociallinks' );
+	register_widget( 'moka_recentposts' );
+	register_widget( 'moka_quote' );
+	register_widget( 'moka_about' );
+}
+add_action( 'widgets_init', 'moka_register_widgets' );
