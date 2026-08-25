@@ -6,6 +6,10 @@ https://www.elmastudio.de/doks/moka/ (German)
 
 Changelog:
 
+Version 1.1.11 (25/08/2026)
+-----------------------------------------------------------------------------------------------------------------------------
+- Fix: PHP 8 compatibility. Theme options and widget settings no longer trigger warnings; attachment pages, related posts and comment display fixed where affected.
+
 Version 1.1.10 (16/08/2021)
 ---
 - Bugfix: Remove support for API Manager plugin.
