@@ -462,3 +462,14 @@ function moka_i18n_setup() {
 	) );
 }
 add_action( 'init', 'moka_i18n_setup' );
+
+/* __php8_option_defaults: never let the theme options be false or miss a key (PHP 8). */
+function moka_php8_option_defaults( $options = array() ) {
+	$fallback = array_fill_keys( array( 'share-posts', 'custom_footertext', 'share-singleposts', 'show-excerpt', 'custom_logo', 'custom_logo_width', 'custom_logo_height', 'sidebar-fixed', 'custom-css' ), '' );
+	if ( function_exists( 'moka_get_default_theme_options' ) ) {
+		$fallback = array_merge( $fallback, (array) moka_get_default_theme_options() );
+	}
+	return wp_parse_args( is_array( $options ) ? $options : array(), $fallback );
+}
+add_filter( 'default_option_moka_theme_options', 'moka_php8_option_defaults' );
+add_filter( 'option_moka_theme_options', 'moka_php8_option_defaults' );

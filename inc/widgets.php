@@ -22,6 +22,7 @@
 	}
 
 	public function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'twitter' => '', 'facebook' => '', 'googleplus' => '', 'appnet' => '', 'flickr' => '', 'instagram' => '', 'picasa' => '', 'fivehundredpx' => '', 'youtube' => '', 'vimeo' => '', 'dribbble' => '', 'ffffound' => '', 'pinterest' => '', 'behance' => '', 'deviantart' => '', 'squidoo' => '', 'slideshare' => '', 'lastfm' => '', 'grooveshark' => '', 'soundcloud' => '', 'foursquare' => '', 'github' => '', 'linkedin' => '', 'xing' => '', 'wordpress' => '', 'tumblr' => '', 'rss' => '', 'rsscomments' => '' ) );
 		extract( $args );
 		$title = $instance['title'];
 		$twitter = $instance['twitter'];
@@ -216,6 +217,7 @@
    }
 
    function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'twitter' => '', 'facebook' => '', 'googleplus' => '', 'appnet' => '', 'flickr' => '', 'instagram' => '', 'picasa' => '', 'fivehundredpx' => '', 'youtube' => '', 'vimeo' => '', 'dribbble' => '', 'ffffound' => '', 'pinterest' => '', 'behance' => '', 'deviantart' => '', 'squidoo' => '', 'slideshare' => '', 'lastfm' => '', 'grooveshark' => '', 'soundcloud' => '', 'foursquare' => '', 'github' => '', 'linkedin' => '', 'xing' => '', 'wordpress' => '', 'tumblr' => '', 'rss' => '', 'rsscomments' => '' ) );
 		$title = esc_attr($instance['title']);
 		$twitter = esc_attr($instance['twitter']);
 		$facebook = esc_attr($instance['facebook']);
@@ -411,6 +413,7 @@ class moka_recentposts extends WP_Widget {
 	}
 
 	public function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'postnumber' => '', 'cat' => '' ) );
 		extract( $args );
 		$title = $instance['title'];
 		$postnumber = $instance['postnumber'];
@@ -481,6 +484,7 @@ class moka_recentposts extends WP_Widget {
    }
 
    function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'postnumber' => '', 'cat' => '' ) );
    		$title = esc_attr($instance['title']);
    		$postnumber = esc_attr($instance['postnumber']);
 		$cat = esc_attr($instance['cat']);
@@ -519,6 +523,7 @@ class moka_quote extends WP_Widget {
 	}
 
 	public function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'quotetext' => '', 'quoteauthor' => '' ) );
 		extract( $args );
 		$quotetext = $instance['quotetext'];
 		$quoteauthor = $instance['quoteauthor'];
@@ -543,6 +548,7 @@ class moka_quote extends WP_Widget {
    }
 
    function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'quotetext' => '', 'quoteauthor' => '' ) );
 		$quotetext = esc_attr($instance['quotetext']);
 		$quoteauthor = esc_attr($instance['quoteauthor']);
 		?>
@@ -575,6 +581,7 @@ class moka_about extends WP_Widget {
 	}
 
 	public function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'imageurl' => '', 'imagewidth' => '', 'imageheight' => '', 'abouttext' => '', 'aboutlinks' => '' ) );
 		extract( $args );
 		$title = $instance['title'];
 		$imageurl = $instance['imageurl'];
@@ -604,6 +611,7 @@ class moka_about extends WP_Widget {
    }
 
    function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'imageurl' => '', 'imagewidth' => '', 'imageheight' => '', 'abouttext' => '', 'aboutlinks' => '' ) );
 		$title = esc_attr($instance['title']);
 		$imageurl = esc_attr($instance['imageurl']);
 		$imagewidth = esc_attr($instance['imagewidth']);
