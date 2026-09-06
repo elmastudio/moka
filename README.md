@@ -4,7 +4,7 @@ Moka is a responsive, minimal blog, magazine and creative business theme with a 
 
 By [Elmastudio](https://www.elmastudio.de/en/).
 
-- **Version:** 1.1.10
+- **Version:** 1.1.11
 - **Theme page:** https://www.elmastudio.de/en/wordpress-themes/moka/
 - **Documentation:** [English](https://www.elmastudio.de/en/docs/moka/) / [German](https://www.elmastudio.de/doks/moka/)
 
@@ -16,6 +16,10 @@ Download this repository as a ZIP and upload it in **Appearance → Themes → A
 cd wp-content/themes
 git clone https://github.com/elmastudio/moka.git
 ```
+
+## Updates
+
+Install the Git Updater plugin (https://git-updater.com/) and WordPress will offer new versions of this theme as regular theme updates, straight from GitHub.
 
 ## Status
 

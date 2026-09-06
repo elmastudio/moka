@@ -4,6 +4,9 @@ For the detailed theme documentation please visit:
 https://www.elmastudio.de/en/docs/moka/ (English)
 https://www.elmastudio.de/doks/moka/ (German)
 
+Updates:
+Install the Git Updater plugin (https://git-updater.com/) and WordPress will offer new versions of this theme as regular theme updates, straight from GitHub.
+
 Changelog:
 
 Version 1.1.11 (25/08/2026)
